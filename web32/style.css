@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, "微軟正黑體",sans-serif,;
+    font-size: 18px;
+}   
+.header{
+    background-color:#D7B98E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.header h1{}
+.header ul{
+    /* display: none; */
+    
+    
+}
+.header li{
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+.header li a{
+    color: black;
+    text-decoration: none;
+}
+.header li a:hover{}
+
+.banner{}
+.banner img{
+    width: 100%;
+    height:auto;
+    vertical-align: bottom;
+}
+
+.office{
+    background-color:#DAC9A6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.office .ofbox{
+    background-color:#B4A582;
+    width: 22%;
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+}
+.office .ofbox img{
+    max-width: 100%;
+    height:auto;
+}
+.office .ofbox p{}
+
+.ad{
+    display: flex;
+    background-color:#828282;
+    
+}
+.adbox{
+    background-color: #72636E;
+    width: 25%;
+    
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav{
+    background-color:#b3aa97;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.nav .navbox{
+    background-color: ;
+    width: 15%;
+    margin: 1%;
+}
+.nav .navbox p{
+    color:#23211d;
+    padding-bottom: 10px;
+}
+.nav .navbox ul{}
+.nav .navbox li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.nav .navbox li a{
+    color: #4f4b43;
+    text-decoration: none;
+}
+.nav .navbox li a:hover{}
+
+.footer{
+    color: #BDC0BA;
+    background-color: #707C74;
+    text-align: center;
+    padding: 2%;
+}
+.footer h2{}
+.footer p{}
+
+
+/*====平板css===*/
+@media screen and (max-width:1200px) and (min-width:769px){
+    .header ul{
+        font-size: 1.2em;
+    }
+    .office{
+        flex-wrap: wrap;
+        
+    }
+    .office .ofbox{
+        width: 44%;
+        font-size: 1.2em;
+
+    }
+
+    .ad{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .adbox{
+
+        width: 50%;
+    }
+
+    
+    .nav{
+        flex-wrap: wrap;
+        font-size: 1.2em;
+        justify-content: center;
+    }
+    .nav .navbox{
+        width: 35%;
+        text-align: center;
+    }
+    .nav .navbox p{
+
+    }
+    .nav .navbox ul{}
+    .nav .navbox li{
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .nav .navbox li a{
+        color: #4f4b43;
+        text-decoration: none;
+    }
+    
+}
+
+/*=====手機CSS======*/
+/*office開始雙欄式版型*/
+@media screen and (max-width:768px) {
+    .header ul{
+        display: none;
+    }
+    .header li{
+
+    }
+    .office{
+        flex-wrap: wrap;
+        
+    }
+    .office .ofbox{
+        width: 80%;
+        font-size: 1.2em;
+
+    }
+
+    .ad{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #DAC9A6;
+        justify-content: center;
+    }
+    .adbox{
+
+        width: 80%;
+    }
+
+    
+    .nav{
+        flex-wrap: wrap;
+        font-size: 1.2em;
+        justify-content: center;
+    }
+    .nav .navbox{
+        width: 50%;
+        text-align: center;
+    }
+    .nav .navbox p{
+
+    }
+    .nav .navbox ul{}
+    .nav .navbox li{
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .nav .navbox li a{
+        color: #4f4b43;
+        text-decoration: none;
+    }
+    
+}

@@ -1,0 +1,45 @@
+.outerbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pbox {
+    padding: 15px;
+    margin: 5px;
+    background-color: rgba(255, 250, 240, 0.599);
+    text-align: left;
+}
+
+
+
+.outerbox a{
+    text-decoration: none;
+    color: chocolate;
+}
+.outerbox a:hover{
+    
+    
+}
+
+.outerbox a .pbox{
+    
+    transition: all 2s;
+}
+.outerbox a:hover .pbox{
+    background-color: rgba(255, 228, 196, 0.558);
+    
+}
+
+.outerbox a .pbox img{
+    transition: all 0.5s;
+}
+.outerbox a:hover .pbox img{
+    scale: 1.1;
+}
+
+
+
+
+/*flex wrap
+子盒padding*/

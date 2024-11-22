@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {}
+
+.container {
+    width: 1200px;
+}
+
+.container h1 {}
+
+.container ul {}
+
+.container li {}
+
+.container li a {}
+
+.container li a:hover {}
+
+.header {}
+
+.banner {}
+
+.divandcontent {}
+
+.nav {}
+
+.nav ul {}
+
+.nav li {}
+
+.nav li a {}
+
+.nav li a:hover {}
+
+.content {}
+
+.content p {}
+
+.footer {}
