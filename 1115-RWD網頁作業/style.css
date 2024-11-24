@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, "微軟正黑體",sans-serif,;
+    font-size: 18px;
+}
+.container{
+    background-color: blue;
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: aqua;
+    height:50%;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    float: left;
+    height:50%;
+}
+.header ul{
+    
+    width:35%;
+    display: flex;
+    float: right;
+    vertical-align: middle;
+    padding-right: 2%;
+}
+.header li{
+    float: left;
+    list-style: none;
+    margin-left: 3%;
+}
+.header li a{
+    color: black;
+    text-decoration: none;
+}
+
+.banner{
+    box-sizing: border-box;
+    width:100%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./images/banner.jpg);
+    padding: 8% 10% 0 10%;
+    
+}
+.banner h2{
+    color: white;
+    font-size: 80px;
+}
+.banner p{
+    color: white;
+}
+.banner img{
+    padding-left:20% ;
+    padding-top:5%;
+    width: 20%;
+    height:auto;
+}
+
+.flow{
+    background-color: brown;
+    box-sizing: border-box;
+    padding: 3% 5%;
+}
+.flow ul{
+    display: flex;
+    justify-content: center;
+}
+.flow li{
+    list-style: none;
+    width:20%;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+.flow h2{
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+.flow h3{
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.flow p{}
+.flow img{}
+.flow.01{
+    
+}
+.flow.02{}
+.flow.03{}
+.flow.04{}
+
+.construction{}
+.construction h2{}
+.construction p{}
+.construction a{}
+
+.pics{
+    background-color: cadetblue;
+    padding:(5% 10%);
+}
+.outerpic{
+    background-color: rgb(200, 200, 141);
+    display:flex;
+    flex-wrap: wrap;
+}
+.innerpics{
+    width:10%;
+    height:10%;
+}
+.innerpics img{
+    
+
+}
+.innerpics h4{}
+.innerpics h4 img{}
+.innerpics p{}
+
+.hands{
+    background-image: url(./images/handbg.jpg);
+    background-repeat: no-repeat;
+}
+.hands3{}
+.hands3 img{}
+.hands3 h6{}
+.hands3 p{}
+
+.footer{}
+.footer h6{}
+.footer p{}
+
+
+
+
+
+/*平板*/
+@media screen and (max-width:1200px) and (min-width:769px){}
+/*手機*/
+@media screen and (max-width:768px){}
