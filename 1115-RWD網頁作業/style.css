@@ -79,6 +79,7 @@ body{
     width:20%;
     height: 300px;
     background-color: blanchedalmond;
+    position: relative;
 }
 .flow h2{
     font-size: 60px;
@@ -89,15 +90,28 @@ body{
     margin-bottom: 3%;
 }
 .flow p{}
-.flow img{}
-.flow.01{
-    
+.flow img{
+    width:30%;
+    height:auto;
+    position: absolute;
+    position: left 2%, bottom 5%;
 }
-.flow.02{}
-.flow.03{}
-.flow.04{}
+.flow01{
+    background-color:orange;
+}
+.flow02{
+    background-color:red;
+}
+.flow03{
+    background-color:black;
+}
+.flow04{
+    background-color:grey;
+}
 
-.construction{}
+.construction{
+    padding: 5% 10%;
+}
 .construction h2{}
 .construction p{}
 .construction a{}
