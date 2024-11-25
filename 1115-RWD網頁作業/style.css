@@ -142,25 +142,60 @@ body{
 }
 
 .pics{
-    background-color: cadetblue;
-    padding:(5% 10%);
-}
-.outerpic{
+    box-sizing: border-box;
+    padding:5% 10%;
     background-color: rgb(200, 200, 141);
     display:flex;
     flex-wrap: wrap;
-}
-.innerpics{
-    width:10%;
-    height:10%;
-}
-.innerpics img{
+    justify-content: center;
     
+    
+}
+.outerpic{
 
 }
-.innerpics h4{}
-.innerpics h4 img{}
-.innerpics p{}
+.innerpics{
+    box-sizing: border-box;
+
+    background-color: rgb(221, 221, 221);
+    width:30%;
+    height:auto;
+}
+
+.innerpics img.photo{
+    width: 100%;
+    height:auto;
+
+}
+.innerpics img.icon{
+
+    width: 80%;
+    height:auto;
+}
+.innerpics .nonpic{
+    margin-top: 20%;
+    box-sizing: border-box;
+    padding: 10%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+.innerpics h4{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.innerpics h4 img{
+    align-self: center;
+}
+.innerpics p{
+
+}
+.innerpics a{
+    font-size: 0.8em;
+    color: black;
+
+}
 
 .hands{
     background-image: url(./images/handbg.jpg);
