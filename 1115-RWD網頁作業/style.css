@@ -14,7 +14,7 @@ body{
 
 .header{
     box-sizing: border-box;
-    background-color: aqua;
+    
     height:50%;
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,7 @@ body{
 }
 
 .flow{
-    background-color: brown;
+    
     box-sizing: border-box;
     padding: 3% 5%;
 }
@@ -75,46 +75,71 @@ body{
     justify-content: center;
 }
 .flow li{
+    box-sizing: border-box;
+    padding: 1%;
     list-style: none;
-    width:20%;
+    color: white;
+    width:18%;
     height: 300px;
     background-color: blanchedalmond;
     position: relative;
 }
 .flow h2{
-    font-size: 60px;
+    font-size: 3em;
     margin-bottom: 3%;
 }
 .flow h3{
-    font-size: 20px;
+    font-size: 1.1em;
     margin-bottom: 3%;
 }
-.flow p{}
+.flow p{
+    font-size: 0.8em;
+}
 .flow img{
     width:30%;
     height:auto;
     position: absolute;
     position: left 2%, bottom 5%;
 }
-.flow01{
-    background-color:orange;
+.flow ul li.flow01 {
+    background-color: rgb(255, 102, 0) !important;
 }
-.flow02{
-    background-color:red;
+.flow ul li.flow02 {
+    background-color: rgb(255, 61, 31) !important;
 }
-.flow03{
-    background-color:black;
+.flow ul li.flow03 {
+    background-color: rgb(31, 31, 33) !important;
 }
-.flow04{
-    background-color:grey;
+.flow ul li.flow04 {
+    background-color: rgb(78, 78, 78) !important;
 }
 
 .construction{
-    padding: 5% 10%;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 222);
+    padding: 5% 22%;
+    text-align: center;
 }
-.construction h2{}
-.construction p{}
-.construction a{}
+.construction h2{
+    color: rgb(255, 106, 0);
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.construction p{
+    margin-bottom: 3%;
+}
+.construction a{
+    color: white;
+    font-size: 0.8em;
+    background-color: orangered;
+    display: block;
+    width:20%;
+    margin:auto;
+    padding:1% 2%;
+    
+    text-decoration: none;
+}
 
 .pics{
     background-color: cadetblue;
