@@ -144,7 +144,7 @@ body{
 .pics{
     box-sizing: border-box;
     padding:5% 10%;
-    background-color: rgb(200, 200, 141);
+    
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -198,15 +198,55 @@ body{
 }
 
 .hands{
+    background-color: white;
     background-image: url(./images/handbg.jpg);
+    background-size: 100%;
+    padding-top: 20%;
     background-repeat: no-repeat;
-}
-.hands3{}
-.hands3 img{}
-.hands3 h6{}
-.hands3 p{}
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
 
-.footer{}
+}
+.hands1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.hands3{
+    width: 20%;
+    box-sizing: border-box;
+    padding: 3%;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.hands3 img{
+    width: 70%;
+    height: auto;
+}
+.hands3 h6{
+    font-size: 1rem;
+}
+.hands3 p{
+    font-size: 0.5rem;
+    text-align: center;}
+
+.footer{
+    padding: 2%;
+    color: white;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+}
 .footer h6{}
 .footer p{}
 
