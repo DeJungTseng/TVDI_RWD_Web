@@ -257,9 +257,12 @@ body{
 
 /*平板*/
 @media screen and (max-width:1200px) and (min-width:769px){
+    .flow ul{
+        flex-wrap: wrap;
+    }
     .flow li{
         width: 50%;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -275,9 +278,12 @@ body{
  
 /*手機*/
 @media screen and (max-width:768px){
+    .flow ul{
+        flex-wrap: wrap;
+    }
     .flow li{
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     .pics{
         flex-direction: column;
