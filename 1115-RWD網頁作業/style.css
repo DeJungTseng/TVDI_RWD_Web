@@ -99,7 +99,7 @@ body{
     width:30%;
     height:auto;
     position: absolute;
-    position: left 2%, bottom 5%;
+    position: left 0%,bottom 0%;
 }
 .flow ul li.flow01 {
     background-color: rgb(255, 102, 0) !important;
@@ -262,9 +262,13 @@ body{
     }
     .flow li{
         width: 50%;
-        height: 100%;
+        height: 300px;
         display: flex;
         flex-wrap: wrap;
+    }
+    .flow img{
+        width:30%;
+        height:auto;
     }
     .pics{
         flex-wrap: wrap;
@@ -283,7 +287,11 @@ body{
     }
     .flow li{
         width: 100%;
-        height: 100%;
+        height: 300px;
+    }
+    .flow img{
+        width:30%;
+        height:auto;
     }
     .pics{
         flex-direction: column;
