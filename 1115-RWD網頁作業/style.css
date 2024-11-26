@@ -258,13 +258,33 @@ body{
 /*平板*/
 @media screen and (max-width:1200px) and (min-width:769px){
     .flow li{
-        display:flex;
-        flex-wrap: wrap;
-
-        width:50%;
+        width: 50%;
         height: auto;
-
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pics{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .innerpics{
+        width: 45%;
+        margin-bottom: 5%;
     }
 }
+ 
 /*手機*/
-@media screen and (max-width:768px){}
+@media screen and (max-width:768px){
+    .flow li{
+        width: 100%;
+        height: auto;
+    }
+    .pics{
+        flex-direction: column;
+        align-items: center;
+    }
+    .innerpics{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+}
