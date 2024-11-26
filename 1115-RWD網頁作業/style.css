@@ -256,6 +256,15 @@ body{
 
 
 /*平板*/
-@media screen and (max-width:1200px) and (min-width:769px){}
+@media screen and (max-width:1200px) and (min-width:769px){
+    .flow li{
+        display:flex;
+        flex-wrap: wrap;
+
+        width:50%;
+        height: auto;
+
+    }
+}
 /*手機*/
 @media screen and (max-width:768px){}
