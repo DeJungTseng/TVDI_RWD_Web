@@ -80,3 +80,8 @@ p a{
 	background-image:url(images/111.png);
 
 }
+
+@keyframes juju{
+	0% {transform:rotateY(0deg);}
+	100% {transform:rotateY(180deg);}
+}

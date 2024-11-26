@@ -267,7 +267,7 @@ body{
         flex-wrap: wrap;
     }
     .flow img{
-        width:30%;
+        width:20%;
         height:auto;
     }
     .pics{
@@ -290,7 +290,7 @@ body{
         height: 300px;
     }
     .flow img{
-        width:30%;
+        width:10%;
         height:auto;
     }
     .pics{
