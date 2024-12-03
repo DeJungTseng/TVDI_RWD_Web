@@ -26,6 +26,7 @@ body{
 #MENU li{
 	float:left;
 	list-style-type:none;
+
 }
 #MENU li a{
 	display:block;

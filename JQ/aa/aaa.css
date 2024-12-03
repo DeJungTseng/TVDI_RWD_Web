@@ -1,0 +1,21 @@
+body{
+    background-color: #94e783;
+}
+.box{
+    background-color: #fff;
+    width: 1200px;
+    margin: auto;
+}
+
+.tt{
+    background-color:yellow;
+    width:800px;
+    height: 60px;
+    position: relative;
+    /* left: 0px;
+    top:150px; */
+    box-sizing: border-box;
+    padding:5%;
+
+
+}

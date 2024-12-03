@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+html,body{
+	
+}
 body{
 	background-color:#09C;
 }
@@ -13,4 +15,6 @@ body{
 img{
 	border:0;
 }
-
+#gotop{
+	cursor: pointer;
+}
