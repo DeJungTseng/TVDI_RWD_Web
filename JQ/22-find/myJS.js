@@ -1,14 +1,8 @@
 $(function(){
     $(".BANNER").hover(function(){
-        $(this).find(".BOX").stop(true,false).slideDown()
-
-    },function(){
-        $(this).find(".BOX").stop(true,false).slideUp()
-
+        $(this).find(".BOX").stop(true,false).slideToggle().end().siblings().find(".BOX").slideUp()
 
     })
-
-
 
 
 
